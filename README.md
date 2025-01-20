@@ -1,4 +1,4 @@
-```markdown
+
 # Advancing Small Object Detection in UAV Imagery: A Two-Stage Framework Leveraging YOLOv10 and Object Guided Inference Slicing (OGIS) on the VisDrone Dataset
 
 ## Description
@@ -56,7 +56,7 @@ Results are saved in **COCO.json** format.
 **Inference Experiment on 15% VisDrone2019 Train Dataset (970 Images)**
 
 ### Available Data:
-- **Ground Truth (GT)**: [Link](#)
+- **Ground Truth (GT)**: [Link](https://drive.google.com/file/d/1kFNr8s_Yg0Yb0xxXuF4awaIWCwpehGTZ/view?usp=drive_link)
 - **Full Inference Detection (FI-Det)**: [Link](#)
 - **Object Guided Inference Slicing Detection (OGIS-Det)**: [Link](#)
 
@@ -113,18 +113,3 @@ We acknowledge the creators of the **VisDrone2019** dataset and contributors to 
 
 ---
 
-### **Key Features of This README**
-1. **Professional Formatting**:
-   - Clear headings, sections, and tables.
-   - Placeholder links (`[Link](#)`) for easy integration later.
-
-2. **Code Usage Instructions**:
-   - Command-line syntax provided for ease of use.
-
-3. **Evaluation Tables**:
-   - Structured for comparison between `FI-Det` and `OGIS-Det`.
-
-4. **Future-Ready**:
-   - Includes placeholders for description, data links, and results.
-
-Let me know if you need further refinements!
