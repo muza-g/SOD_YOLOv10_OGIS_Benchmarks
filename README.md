@@ -19,6 +19,9 @@ Clone the repository and install necessary dependencies:
 git clone https://github.com/muza-g/SOD_YOLOv10_OGIS_Benchmarks.git
 pip install pycocotools
 ```
+Here's the `.md` code for the updated **Evaluation Steps** section in your `README.md` file:
+
+```markdown
 ### 3. **Evaluation Steps**
 Run the following commands to evaluate and compare results:
 
@@ -26,24 +29,22 @@ Run the following commands to evaluate and compare results:
 ```bash
 python Results_Evaluate.py \
     --ground_truth_path ./data/ground_truth/ground_truth_coco.json \
-    --predictions_path ./data/FI_Predictions/full_inference.json \
-    --iou_type bbox
+    --predictions_path ./data/FI_Predictions/full_inference.json
 ```
 
 #### **OGIS-Det Evaluation**
 ```bash
 python Results_Evaluate.py \
     --ground_truth_path ./data/ground_truth/ground_truth_coco.json \
-    --predictions_path ./data/FI_Predictions/full_inference.json \
-    --iou_type bbox
+    --predictions_path ./data/OGIS_Predictions/gois_inference.json
 ```
 
 #### **Comparison of FI-Det and OGIS-Det**
 ```bash
-python calculate_results.py \
+python Compare_Results_OGIS_Det_VS_FI_Det.py \
     --ground_truth_path ./data/ground_truth/ground_truth_coco.json \
     --full_inference_path ./data/FI_Predictions/full_inference.json \
-    --gois_inference_path ./data/gois_Predictions/gois_inference.json
+    --gois_inference_path ./data/OGIS_Predictions/gois_inference.json
 ```
 
 
