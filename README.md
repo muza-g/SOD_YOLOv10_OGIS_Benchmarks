@@ -19,14 +19,6 @@ Clone the repository and install necessary dependencies:
 git clone https://github.com/muza-g/SOD_YOLOv10_OGIS_Benchmarks.git
 pip install pycocotools
 ```
-
-Set paths for ground truth and predictions:
-```python
-# Update these paths with your files
-ground_truth_path = "/content/Small-Object-Detection-Benchmarks-Full_ImageVsGOIS/Ground_Trouth-COCO.json"
-predictions_path = "/content/FI_yolo11n(1).json"
-```
-
 ### 3. **Evaluation Steps**
 Run the following commands to evaluate and compare results:
 
