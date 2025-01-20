@@ -37,7 +37,7 @@
 ## Part 1: NOT Fine-Tuned (NFT) YOLOv10, Results are saved in **COCO.json** format.  
 **Inference Experiment on 100% VisDrone2019 Train Dataset (6,471 Images)**
 
--  [**Ground Truth (GT)**:](https://drive.google.com/file/d/1-xQ6z7Yx0y3pZp_TZpbWjbM4VrbQ4yL0/view?usp=drive_link)   [**Full Inference Detection (FI-Det)**:](https://drive.google.com/file/d/108lw39DbQaNFfLH4hRiXDUPBHN0aMwoq/view?usp=drive_link)    [**Object Guided Inference Slicing Detection (OGIS-Det)**:](https://drive.google.com/file/d/10Br73D63gjm_w4EH9IxREcNnS6yM0H0v/view?usp=drive_link)
+-  [**Ground Truth (GT)**:](https://drive.google.com/file/d/1-xQ6z7Yx0y3pZp_TZpbWjbM4VrbQ4yL0/view?usp=drive_link)  - [**Full Inference Detection (FI-Det)**:](https://drive.google.com/file/d/108lw39DbQaNFfLH4hRiXDUPBHN0aMwoq/view?usp=drive_link)  -  [**Object Guided Inference Slicing Detection (OGIS-Det)**:](https://drive.google.com/file/d/10Br73D63gjm_w4EH9IxREcNnS6yM0H0v/view?usp=drive_link)
 
 
 ### Evaluation Table: YOLOv10 FI-Det vs. GOIS-Det
@@ -52,7 +52,7 @@
 
 ## Part 2: NOT Fine-Tuned (NFT) YOLOv10  
 **Inference Experiment on 15% VisDrone2019 Train Dataset (970 Images) AND Available Data:Results are saved in **COCO.json** format
-- **Ground Truth (GT)**: [Link](https://drive.google.com/file/d/1kFNr8s_Yg0Yb0xxXuF4awaIWCwpehGTZ/view?usp=drive_link) **Full Inference Detection (FI-Det)**: [Link](https://drive.google.com/file/d/1VuiYajOY6k4bFt6Crp5W4sZGAMy-g8dm/view?usp=drive_link)  **Object Guided Inference Slicing Detection (OGIS-Det)**: [Link](https://drive.google.com/file/d/1aETLjqsbbtoTAeA0kmNUAa0TnbDfSwiT/view?usp=drive_link)
+-  [**Ground Truth (GT)**:](https://drive.google.com/file/d/1kFNr8s_Yg0Yb0xxXuF4awaIWCwpehGTZ/view?usp=drive_link)  [**Full Inference Detection (FI-Det)**:](https://drive.google.com/file/d/1VuiYajOY6k4bFt6Crp5W4sZGAMy-g8dm/view?usp=drive_link)   [**Object Guided Inference Slicing Detection (OGIS-Det)**:](https://drive.google.com/file/d/1aETLjqsbbtoTAeA0kmNUAa0TnbDfSwiT/view?usp=drive_link)
 
 ## Evaluation Table: YOLOv10 FI-Det vs. GOIS-Det
 
@@ -75,8 +75,7 @@ The following table compares **Full Inference Detection (FI-Det)** and **Object 
 
 ## Part 3: Fine-Tuned (FT) YOLOv10 
 **Trained for 10 Epochs on 100% VisDrone2019 Train Dataset (6,471 Images) and Inference on the Same Dataset, Results are saved in **COCO.json** format.**
-- **Ground Truth (GT)**: [Link](https://drive.google.com/file/d/15KjnH9FoEfxb9ZnIOjPPMwGsPgxC7Yfu/view?usp=drive_link)  **Full Inference Detection (FI-Det)**: [Link](https://drive.google.com/file/d/1-5xldi9gBTT6Qwm-vcj8JjqJMSIloFwh/view?usp=drive_link)  **Object Guided Inference Slicing Detection (OGIS-Det)**: [Link](https://drive.google.com/file/d/1-6odgDZHwtGsFqFrgeFfTmyTkL34aZWD/view?usp=drive_link)
-
+- [**Ground Truth (GT)**: ](https://drive.google.com/file/d/15KjnH9FoEfxb9ZnIOjPPMwGsPgxC7Yfu/view?usp=drive_link)  [ **Full Inference Detection (FI-Det)**:](https://drive.google.com/file/d/1-5xldi9gBTT6Qwm-vcj8JjqJMSIloFwh/view?usp=drive_link)   [**Object Guided Inference Slicing Detection (OGIS-Det)**:](https://drive.google.com/file/d/1-6odgDZHwtGsFqFrgeFfTmyTkL34aZWD/view?usp=drive_link)
 
 
 ### Evaluation Table: YOLOv10 FI-Det vs. GOIS-Det
