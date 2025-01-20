@@ -1,5 +1,5 @@
 
-# Advancing Small Object Detection in UAV Imagery: A Two-Stage Framework Leveraging YOLOv10 and Object Guided Inference Slicing (OGIS) on the VisDrone Dataset
+# Advancing Small Object Detection in UAV Imagery: A Two-Stage Framework Leveraging YOLOv10 and Object Guided Inference Slicing (OGIS) on the VisDrone Dataset[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](OGIS-Det_VS_FI-Det(Evaluation).ipynb)
 
 ## Description
 *(To be added later)*
