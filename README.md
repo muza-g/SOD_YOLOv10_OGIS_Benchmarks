@@ -5,34 +5,56 @@
 *(To be added later)*
 
 ---
-
 ## Testing Code Steps
 
-1. **Download Required Files**:
-   - **Ground Truth (GT)**: Download the COCO.json file containing the ground truth annotations.
-   - **FI-Det COCO.json**: Download the Full Inference Detection results in COCO.json format.
-   - **OGIS-Det COCO.json**: Download the Object Guided Inference Slicing Detection results in COCO.json format.
-   - Upload the files to your preferred storage location (e.g., Google Drive).
+### 1. **Download Required Files**
+- **Ground Truth (GT)**: Download the COCO.json file containing the ground truth annotations.
+- **FI-Det COCO.json**: Download the Full Inference Detection results in COCO.json format.
+- **OGIS-Det COCO.json**: Download the Object Guided Inference Slicing Detection results in COCO.json format.
+- Upload the files to your preferred storage location (e.g., Google Drive).
 
-2. **Evaluation Steps**:
-   - **FI-Det Evaluation**:
-     ```bash
-     python _Evaluation_coco_results.py --GT-path="<path_to_GT.json>" --FI-Det_COCO.json-path="<path_to_FI-Det.json>"
-     ```
-   - **OGIS-Det Evaluation**:
-     ```bash
-     python _Evaluation_coco_results.py --GT-path="<path_to_GT.json>" --OGIS-Det_COCO.json-path="<path_to_OGIS-Det.json>"
-     ```
-   - **Comparison of FI-Det and OGIS-Det**:
-     ```bash
-     python Compare_FI-Det_AND_OGIS-Det.py
-     ```
-   - **Upscale and Compare**:
-     ```bash
-     python Upscale_AND_Compare.py
-     ```
+### 2. **Setup Environment**
+Clone the repository and install necessary dependencies:
+```bash
+git clone https://github.com/muza-g/SOD_YOLOv10_OGIS_Benchmarks.git
+pip install pycocotools
+```
 
----
+Set paths for ground truth and predictions:
+```python
+# Update these paths with your files
+ground_truth_path = "/content/Small-Object-Detection-Benchmarks-Full_ImageVsGOIS/Ground_Trouth-COCO.json"
+predictions_path = "/content/FI_yolo11n(1).json"
+```
+
+### 3. **Evaluation Steps**
+Run the following commands to evaluate and compare results:
+
+#### **FI-Det Evaluation**
+```bash
+python Results_Evaluate.py \
+    --ground_truth_path ./data/ground_truth/ground_truth_coco.json \
+    --predictions_path ./data/FI_Predictions/full_inference.json \
+    --iou_type bbox
+```
+
+#### **OGIS-Det Evaluation**
+```bash
+python Results_Evaluate.py \
+    --ground_truth_path ./data/ground_truth/ground_truth_coco.json \
+    --predictions_path ./data/FI_Predictions/full_inference.json \
+    --iou_type bbox
+```
+
+#### **Comparison of FI-Det and OGIS-Det**
+```bash
+python calculate_results.py \
+    --ground_truth_path ./data/ground_truth/ground_truth_coco.json \
+    --full_inference_path ./data/FI_Predictions/full_inference.json \
+    --gois_inference_path ./data/gois_Predictions/gois_inference.json
+```
+
+
 
 ## Part 1: NOT Fine-Tuned (NFT) YOLOv10, Results are saved in **COCO.json** format.  
 **Inference Experiment on 100% VisDrone2019 Train Dataset (6,471 Images)**
