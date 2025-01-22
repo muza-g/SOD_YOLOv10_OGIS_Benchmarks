@@ -116,28 +116,33 @@ This analysis highlights the strengths of the OGIS-Det framework in improving sm
 
 ---
 
-## Citation
-If you use this framework or dataset in your research, please cite this work:
+## Citation  
+If you use this framework or dataset in your research, please cite this work:  
+
 ```bibtex
 @article{yourpaper2025,
-  title={Advancing Small Object Detection in UAV Imagery: A Two-Stage Framework Leveraging YOLOv10 and Object Guided Inference Slicing (OGIS) on the VisDrone Dataset},
+  title={Transforming Small Object Detection in High-Resolution UAV Imagery: The Integration of YOLOv10 with Object Guided Inference Slicing (OGIS) on the VisDrone Dataset},
   author={Your Name and Co-Authors},
+  journal={Preprint},
   year={2025},
-  journal={Your Journal Name},
-  publisher={Your Publisher},
+  note={Available at [insert-link-to-preprint]}
 }
 ```
 
 ---
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+## License  
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.  
 
 ---
 
-## Acknowledgements
-We acknowledge the creators of the **VisDrone2019** dataset and contributors to the **YOLOv10** framework.
+## Acknowledgements  
+We extend our heartfelt gratitude to the collaborative research team at the College of Computer Science and Technology, Zhejiang University, China, for their invaluable support and guidance.  
+
+---
+
+## Contact  
+For inquiries or collaborations, please contact:  
+**Email:** muzamal@zju.edu.cn  
 ```
-
----
 
