@@ -52,7 +52,7 @@ python Compare_Results_OGIS_Det_VS_FI_Det.py \
 -  [**Ground Truth (GT)**:](https://drive.google.com/file/d/1-xQ6z7Yx0y3pZp_TZpbWjbM4VrbQ4yL0/view?usp=drive_link)  - [**Full Inference Detection (FI-Det)**:](https://drive.google.com/file/d/108lw39DbQaNFfLH4hRiXDUPBHN0aMwoq/view?usp=drive_link)  -  [**Object Guided Inference Slicing Detection (OGIS-Det)**:](https://drive.google.com/file/d/10Br73D63gjm_w4EH9IxREcNnS6yM0H0v/view?usp=drive_link)
 
 
-### Evaluation Table: YOLOv10 FI-Det vs. GOIS-Det
+### Evaluation Table: YOLOv10 FI-Det vs. OGIS-Det
 
 | **Metric**                                   | **AP@[IoU=0.50:0.95]** | **AP@[IoU=0.50]** | **AP@[IoU=0.75]** | **AP@[IoU=0.50] Small** | **AP@[IoU=0.50] Medium** | **AP@[IoU=0.50] Large** | **AR@[IoU=0.50:0.95] MaxDets=1** | **AR@[IoU=0.50:0.95] MaxDets=10** | **AR@[IoU=0.50:0.95] MaxDets=100** | **AR@[IoU=0.50] Small** | **AR@[IoU=0.50] Medium** | **AR@[IoU=0.50] Large** |
 |---------------------------------------------|-------------------------|-------------------|-------------------|-------------------------|--------------------------|--------------------------|-----------------------------------|-----------------------------------|-----------------------------------|--------------------------|--------------------------|--------------------------|
@@ -66,7 +66,7 @@ python Compare_Results_OGIS_Det_VS_FI_Det.py \
 **Inference Experiment on 15% VisDrone2019 Train Dataset (970 Images) AND Available Data:Results are saved in **COCO.json** format
 -  [**Ground Truth (GT)**:](https://drive.google.com/file/d/1kFNr8s_Yg0Yb0xxXuF4awaIWCwpehGTZ/view?usp=drive_link)  [**Full Inference Detection (FI-Det)**:](https://drive.google.com/file/d/1VuiYajOY6k4bFt6Crp5W4sZGAMy-g8dm/view?usp=drive_link)   [**Object Guided Inference Slicing Detection (OGIS-Det)**:](https://drive.google.com/file/d/1aETLjqsbbtoTAeA0kmNUAa0TnbDfSwiT/view?usp=drive_link)
 
-## Evaluation Table: YOLOv10 FI-Det vs. GOIS-Det
+## Evaluation Table: YOLOv10 FI-Det vs. OGIS-Det
 
 The following table compares **Full Inference Detection (FI-Det)** and **Object Guided Inference Slicing Detection (OGIS-Det)** for YOLOv10, along with the percentage improvement achieved by OGIS-Det over FI-Det.
 
@@ -90,7 +90,7 @@ The following table compares **Full Inference Detection (FI-Det)** and **Object 
 - [**Ground Truth (GT)**: ](https://drive.google.com/file/d/15KjnH9FoEfxb9ZnIOjPPMwGsPgxC7Yfu/view?usp=drive_link)  [ **Full Inference Detection (FI-Det)**:](https://drive.google.com/file/d/1-5xldi9gBTT6Qwm-vcj8JjqJMSIloFwh/view?usp=drive_link)   [**Object Guided Inference Slicing Detection (OGIS-Det)**:](https://drive.google.com/file/d/1-6odgDZHwtGsFqFrgeFfTmyTkL34aZWD/view?usp=drive_link)
 
 
-### Evaluation Table: YOLOv10 FI-Det vs. GOIS-Det
+### Evaluation Table: YOLOv10 FI-Det vs. OGIS-Det
 
 The following table compares **Full Inference Detection (FI-Det)** and **Object Guided Inference Slicing Detection (OGIS-Det)** for YOLOv10, along with the percentage improvement achieved by OGIS-Det over FI-Det.
 
