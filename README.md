@@ -19,9 +19,6 @@ Clone the repository and install necessary dependencies:
 git clone https://github.com/muza-g/SOD_YOLOv10_OGIS_Benchmarks.git
 pip install pycocotools
 ```
- updated **Evaluation Steps** :
-
-```markdown
 ### 3. **Evaluation Steps**
 Run the following commands to evaluate and compare results:
 
