@@ -19,7 +19,7 @@ Clone the repository and install necessary dependencies:
 git clone https://github.com/muza-g/SOD_YOLOv10_OGIS_Benchmarks.git
 pip install pycocotools
 ```
-Here's the `.md` code for the updated **Evaluation Steps** section in your `README.md` file:
+ updated **Evaluation Steps** :
 
 ```markdown
 ### 3. **Evaluation Steps**
