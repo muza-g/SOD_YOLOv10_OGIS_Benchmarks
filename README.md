@@ -2,8 +2,12 @@
 # Transforming Small Object Detection in High-Resolution UAV Imagery: The Integration of YOLOv10 with Object Guided Inference Slicing (OGIS) on the VisDrone Dataset [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](OGIS-Det_VS_FI-Det(Evaluation).ipynb)
 
 ## Description
-*(Small Object Detection (SOD) remains a challenging task in computer vision, hindered by factors such as scale variation, occlusion, and background clutter. This paper introduces the Object Guided Inference Slicing (OGIS) framework, a novel approach designed to address these challenges by dynamically reallocating computational resources to regions of interest (ROIs). By integrating a two-stage adaptive slicing strategy with the YOLOv10 architecture, OGIS achieves significant improvements in detection performance and computational efficiency. Experimental validation on the VisDrone2019 dataset demonstrates substantial gains, including a 300% improvement in AP@[IoU=0.50] Small and a 27.05% reduction in inference time compared to Full Inference Detection (FI-Det). Furthermore, OGIS outperforms established methods such as Slicing Aided Hyper Inference (SAHI) and Entropy-Based Region Prioritization across critical metrics, including F1 Score, precision, and recall. These results highlight OGIS's ability to enhance small object detection while maintaining scalability and resource efficiency. Despite its trade-offs in large object detection, the framework's adaptability and lightweight design position it as a practical solution for real-world applications, such as UAV-based surveillance, medical diagnostics, and autonomous navigation. The study concludes by outlining potential directions for future research, including energy-efficient adaptations and cross-dataset evaluations, paving the way for further advancements in adaptive object detection methodologies. )*
 
+- **OGIS Framework**: Introduces a dynamic two-stage adaptive slicing strategy integrated with YOLOv10, addressing key challenges in Small Object Detection (SOD) such as scale variation and occlusion.  
+- **Performance Gains**: Achieves **3× improvement in AP@[IoU=0.50] Small**, **2× enhancement in AR@[IoU=0.50] Small**, and **158% increase in F1 Score** compared to Full Inference Detection (FI-Det).  
+- **Efficiency**: Reduces inference time by **27%**, making it ideal for resource-constrained applications.  
+- **Real-World Applications**: Suitable for UAV-based surveillance, medical diagnostics, and autonomous navigation due to its lightweight and adaptive design.  
+- **Future Potential**: Highlights directions for energy-efficient adaptations, cross-dataset evaluations, and hybrid architecture integration to enhance scalability and performance.  
 ---
 ## Testing Code Steps
 
