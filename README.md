@@ -1,5 +1,5 @@
 
-# Transforming Small Object Detection in High-Resolution UAV Imagery: The Integration of YOLOv10 with Object Guided Inference Slicing (OGIS) on the VisDrone Dataset [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](OGIS-Det_VS_FI-Det(Evaluation).ipynb)
+# Transforming Small Object Detection by Innovative Framework Object Guided Inference Slcing OGIS-Det+YOLOv10  VS  Full Image Inference FI-Det+YOLOv10 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](OGIS-Det_VS_FI-Det(Evaluation).ipynb)
 
 ## Description
 
