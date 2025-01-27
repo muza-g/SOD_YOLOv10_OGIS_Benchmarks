@@ -121,12 +121,8 @@ This analysis highlights the strengths of the OGIS-Det framework in improving sm
 If you use this framework or dataset in your research, please cite this work:  
 
 ```bibtex
-@article{yourpaper2025,
-  title={Transforming Small Object Detection in High-Resolution UAV Imagery: The Integration of YOLOv10 with Object Guided Inference Slicing (OGIS) on the VisDrone Dataset},
-  author={Your Name and Co-Authors},
-  journal={Preprint},
-  year={2025},
-  note={Available at [insert-link-to-preprint]}
+@article[paper2025,
+  [NO-link-still-preprint]}
 }
 ```
 
